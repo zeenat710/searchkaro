@@ -4,7 +4,8 @@ import axios from "axios";
 // Image import karein (Ensure image path is correct)
 import loginImg from "../assets/login.png"; 
 
-export default function Login() {
+const login = () => {
+
   const navigate = useNavigate();
 
   const BACKEND_URL =
@@ -136,3 +137,4 @@ export default function Login() {
     </div>
   );
 }
+export default login;
